@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ScalaCompilerConfiguration">
     <profile name="sbt 1" modules="letssee" />
-    <profile name="sbt 2" modules="LetsSee,ScalaWithCats">
+    <profile name="sbt 2" modules="LetsSee">
       <parameters>
         <parameter value="-Xfatal-warnings" />
         <parameter value="-Ypartial-unification" />
+      </parameters>
+    </profile>
+    <profile name="sbt 3" modules="ScalaWithCats">
+      <parameters>
+        <parameter value="-Xfatal-warnings" />
       </parameters>
     </profile>
   </component>

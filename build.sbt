@@ -11,5 +11,5 @@ libraryDependencies +=
 
 scalacOptions ++= Seq(
   "-Xfatal-warnings",
-  "-Ypartial-unification"
+
 )
