@@ -1,5 +1,16 @@
 package part2Semigroups
+/*
+ Semi-group is a Set theory feature with Set and Operator
+ Here the property we need to take into account is associativity
+ It differs from monoid as it does not have empty element
+ property
+ */
 
+/*
+ In the below code we have three methods and all of them are same
+ Hence there is a possiblity of refactoring the codes
+ so that a same interface can be reused
+ */
 object SemiGroupUsingScala extends App with Data {
 
 def addMoney(a:Money,b:Money):Money={
