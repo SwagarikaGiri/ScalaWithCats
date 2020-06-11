@@ -1,6 +1,6 @@
 package part0_4_ClassAndInheritence
 
-object AnonymousClass extends App{
+object AnonymousClasses extends App{
 
   abstract class Animal{
     def eat:Unit

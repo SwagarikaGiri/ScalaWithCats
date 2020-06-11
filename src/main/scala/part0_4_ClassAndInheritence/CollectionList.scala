@@ -1,4 +1,5 @@
 package part0_4_ClassAndInheritence
+
 abstract class MyList {
   def head:Int
   def tail:MyList
@@ -8,6 +9,7 @@ abstract class MyList {
 
 
 }
+
 
 //Empty is Object and Class Bcoz Object are the SingleTon that can be initialized just once
 object Empty extends MyList{
