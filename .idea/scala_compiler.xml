@@ -9,6 +9,7 @@
       </parameters>
     </profile>
     <profile name="sbt 3" modules="ScalaWithCats">
+      <option name="higherKinds" value="true" />
       <parameters>
         <parameter value="-Xfatal-warnings" />
       </parameters>
