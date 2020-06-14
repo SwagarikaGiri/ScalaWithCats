@@ -30,6 +30,6 @@ object SemiGroupal extends App{
   /*
       There has also been beautiful syntax
    */
-  
+
   println((Option(7),Option(7),Option(10)).tupled)
 }
